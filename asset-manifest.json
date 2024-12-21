@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-commerce-1/static/css/main.a86e3b4c.css",
+    "main.js": "/e-commerce-1/static/js/main.68f5c74c.js",
+    "static/js/787.46493d11.chunk.js": "/e-commerce-1/static/js/787.46493d11.chunk.js",
+    "static/media/pexels-n-voitkevich-8939569.jpg": "/e-commerce-1/static/media/pexels-n-voitkevich-8939569.a27ab7669722b02ef378.jpg",
+    "static/media/pexels-n-voitkevich-8939806.jpg": "/e-commerce-1/static/media/pexels-n-voitkevich-8939806.d3d9326bde75ebcf0e3b.jpg",
+    "static/media/pexels-shvetsa-12679949.jpg": "/e-commerce-1/static/media/pexels-shvetsa-12679949.c57037c73c35fee9646a.jpg",
+    "static/media/pexels-mikael-blomkvist-6483579.jpg": "/e-commerce-1/static/media/pexels-mikael-blomkvist-6483579.c2c258dfdcf5074845a3.jpg",
+    "static/media/pexels-sora-shimazaki-5926462.jpg": "/e-commerce-1/static/media/pexels-sora-shimazaki-5926462.791014a4cdc4f3b41387.jpg",
+    "static/media/pexels-karolina-grabowska-5632371.jpg": "/e-commerce-1/static/media/pexels-karolina-grabowska-5632371.39f38b21e39ba18233c6.jpg",
+    "static/media/pexels-karolina-grabowska-5650023.jpg": "/e-commerce-1/static/media/pexels-karolina-grabowska-5650023.ecfeec084f81bb1d612c.jpg",
+    "static/media/shopping_cart.png": "/e-commerce-1/static/media/shopping_cart.9bdd8040b334d31946f4.9bdd8040b334d31946f4.png",
+    "index.html": "/e-commerce-1/index.html",
+    "main.a86e3b4c.css.map": "/e-commerce-1/static/css/main.a86e3b4c.css.map",
+    "main.68f5c74c.js.map": "/e-commerce-1/static/js/main.68f5c74c.js.map",
+    "787.46493d11.chunk.js.map": "/e-commerce-1/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a86e3b4c.css",
+    "static/js/main.68f5c74c.js"
+  ]
+}
