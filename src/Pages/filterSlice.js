@@ -6,9 +6,9 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable no-unused-expressions */
 import { createSlice } from '@reduxjs/toolkit'
-import productSlice from '../componants/Store/productSlice'
+
 import swal from 'sweetalert';
-import { filter } from './filterCategories';
+
 
 
 

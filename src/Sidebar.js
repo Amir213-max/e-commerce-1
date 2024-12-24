@@ -30,7 +30,7 @@ export default function Sidebar() {
         <div className="relative">
             {/* أيقونة التحكم */}
             <button
-                className="fixed left-4  z-5 p-3 bg-gray-600 text-white rounded-full shadow-lg hover:bg-yellow-600 transition duration-300"
+                className="fixed left-4  z-10 p-3 bg-gray-600 text-white rounded-full shadow-lg hover:bg-yellow-600 transition duration-300"
                 onClick={toggle}
             >
                 <span className="block w-6 h-0.5 bg-white mb-1"></span>

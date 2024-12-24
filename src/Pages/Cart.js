@@ -23,7 +23,7 @@ export default function Cart() {
         <>
             {carts.length > 0 ? (
                 <div className="mt-5 py-5 container mx-auto">
-                    <table className="table-auto w-full border-separate border-spacing-2">
+                    <table className="table-auto w-full border-separate overflow-y-auto border-spacing-2">
                         <thead>
                             <tr>
                                 <th className="text-left py-2 px-4 bg-gray-700 rounded text-white">#</th>
@@ -38,7 +38,7 @@ export default function Cart() {
                         <tbody>
                             {carts.map((cart) => (
                                 <tr key={cart.id} className="hover:bg-gray-100">
-                                    <td className="text-center py-2">{}</td>
+                                    <td className="text-center py-2"></td>
                                     <td className="py-2 px-4">
                                         <img src={cart.thumbnail} alt={cart.name} className="w-16 h-16 object-cover rounded-lg shadow-md" />
                                     </td>
