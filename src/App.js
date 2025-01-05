@@ -13,6 +13,7 @@ import { AuthProvider } from './componants/auth/AuthProvider';
 import SignUp from './componants/auth/signUp';
 import Login from './componants/auth/login';
 import ProtectedRoute from './componants/auth/ProtectedRoute';
+import Payment from './Pages/Payment';
 
 function App() {
     const [user, setUser] = useState(null);
@@ -47,10 +48,12 @@ function App() {
                         {/* Navbar و Footer يظهران فقط في الصفحات الأخرى */}
                         <Navbar />
                         <Routes>
+                            
                             <Route path="/" element={<Home />} />
                             <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
                             <Route path="/post" element={<ProtectedRoute><Posts /></ProtectedRoute>} />
                             <Route path="/filter" element={<ProtectedRoute><ProductCategory /></ProtectedRoute>} />
+                            <Route path="/payment" element={<ProtectedRoute><Payment /></ProtectedRoute>} />
                             <Route path="*" element={<Navigate to="/" />} />
                         </Routes>
                         <Footer />

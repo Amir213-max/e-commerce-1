@@ -3,6 +3,7 @@
 /* eslint-disable no-const-assign */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import photo from '../assets/shopping_cart.9bdd8040b334d31946f4.png'
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCart, decrease, deleteCart, increase } from './cartSlice';
@@ -85,12 +86,14 @@ export default function Cart() {
                             >
                                 Clear Cart
                             </button>
+                            <Link to={'/payment'}>
                             <button
                                 type="button"
                                 className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600"
-                            >
+                                >
                                 Buy Now
                             </button>
+                                </Link>
                         </div>
                     </div>
                 </div>
